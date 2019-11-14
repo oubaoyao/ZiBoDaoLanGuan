@@ -82,7 +82,7 @@ public class Main : MonoBehaviour
 #endif
         //在这里更改场景入口
         //StateManager.ChangeState(new LoadingState());
-        StateManager.ChangeState(new UdpState());
+        StateManager.ChangeState(new ZiBoState());
 
     }
 

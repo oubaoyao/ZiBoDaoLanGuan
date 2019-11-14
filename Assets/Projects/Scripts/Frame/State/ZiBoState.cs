@@ -1,0 +1,31 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using MTFrame;
+using MTFrame.MTEvent;
+
+public class ZiBoState : BaseState
+{
+    public override string[] ListenerMessageID
+    {
+        get
+        {
+            return new string[]
+            {
+
+            };
+        }
+        set { }
+    }
+
+    public override void OnListenerMessage(EventParamete parameteData)
+    {
+        
+    }
+
+    public override void Enter()
+    {
+        base.Enter();
+
+    }
+}
