@@ -20,5 +20,9 @@ public class ZiBoPanel : BasePanel
         base.InitEvent();
     }
 
-
+    //public override void Open()
+    //{
+    //    base.Open();
+    //    controlPanel.BG_FullScreenButton();
+    //}
 }

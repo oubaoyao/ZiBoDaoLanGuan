@@ -26,6 +26,6 @@ public class ZiBoState : BaseState
     public override void Enter()
     {
         base.Enter();
-
+        CurrentTask.ChangeTask(new ZiBoTask(this));
     }
 }

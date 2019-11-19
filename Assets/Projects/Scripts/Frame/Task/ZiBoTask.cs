@@ -12,11 +12,12 @@ public class ZiBoTask : BaseTask
     public override void Enter()
     {
         base.Enter();
+        UIManager.CreatePanel<ZiBoPanel>(WindowTypeEnum.ForegroundScreen);
     }
 
     public override void Exit()
     {
         base.Exit();
-
+        UIManager.ChangePanelState<ZiBoPanel>(WindowTypeEnum.ForegroundScreen, UIPanelStateEnum.Hide);
     }
 }
